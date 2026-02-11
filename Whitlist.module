@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,ilivedata.com,DIRECT
 DOMAIN-SUFFIX,mtyy.tv,DIRECT
 DOMAIN-SUFFIX,mtyy2.com,DIRECT
 
+#Eastmoney
 DOMAIN-SUFFIX,bdwblog.eastmoney.com,DIRECT
 DOMAIN-SUFFIX,emdcadvertise.eastmoney.com,DIRECT
 DOMAIN-SUFFIX,mobappconfig.securities.eastmoney.com,DIRECT
