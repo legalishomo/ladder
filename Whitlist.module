@@ -1,5 +1,6 @@
 #!name=Whitlist
 #!desc=PersonWhitlist Publisher:Person
+
 [Rule]
 #DOMAIN-SUFFIX,imgur.com,PROXY
 
