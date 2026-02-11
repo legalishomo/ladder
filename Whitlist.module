@@ -24,5 +24,6 @@ DOMAIN-SUFFIX,eq.10jqka.com.cn,DIRECT
 #DOMAIN-SUFFIX,adm.10jqka.com.cn,DIRECT
 
 
+
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
