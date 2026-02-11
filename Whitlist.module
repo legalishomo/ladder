@@ -1,0 +1,26 @@
+#!name=Whitlist
+#!desc=PersonWhitlist Publisher:Person
+[Rule]
+#DOMAIN-SUFFIX,imgur.com,PROXY
+
+#Game
+DOMAIN-SUFFIX,centurygame.com,DIRECT
+DOMAIN-SUFFIX,centurygames.net,DIRECT
+DOMAIN-SUFFIX,hmma.baidu.com,DIRECT
+DOMAIN-SUFFIX,hm.baidu.com,DIRECT
+DOMAIN-SUFFIX,ilivedata.com,DIRECT
+DOMAIN-SUFFIX,mtyy.tv,DIRECT
+DOMAIN-SUFFIX,mtyy2.com,DIRECT
+
+DOMAIN-SUFFIX,bdwblog.eastmoney.com,DIRECT
+DOMAIN-SUFFIX,emdcadvertise.eastmoney.com,DIRECT
+DOMAIN-SUFFIX,mobappconfig.securities.eastmoney.com,DIRECT
+
+#Ths
+DOMAIN-SUFFIX,eq.10jqka.com.cn,DIRECT
+#DOMAIN-SUFFIX,stat.10jqka.com.cn,DIRECT
+#DOMAIN-SUFFIX,adm.10jqka.com.cn,DIRECT
+
+
+DOMAIN-SUFFIX,mafiana.app,PROXY
+DOMAIN-SUFFIX,munqu.com,PROXY
