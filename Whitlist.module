@@ -27,7 +27,8 @@ DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,DIRECT
 #DOMAIN-SUFFIX,stat.10jqka.com.cn,DIRECT
 #DOMAIN-SUFFIX,adm.10jqka.com.cn,DIRECT
 
-
+#Apple
+DOMAIN-SUFFIX,apple.com,DIRECT
 
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
