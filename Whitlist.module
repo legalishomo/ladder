@@ -36,6 +36,10 @@ DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 #OKX
 DOMAIN-SUFFIX,okx.com,DIRECT
 
+#Github
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+
 
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
