@@ -1,6 +1,6 @@
-# Shadowrocket
 #!name=Whitlist
 #!desc=PersonWhitlist Publisher:Person
+# Shadowrocket
 
 [Rule]
 #DOMAIN-SUFFIX,imgur.com,PROXY
