@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,mobappconfig.securities.eastmoney.com,DIRECT
 DOMAIN-SUFFIX,eq.10jqka.com.cn,DIRECT
 DOMAIN-SUFFIX,ozone.10jqka.com.cn,DIRECT
 DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,DIRECT
-
 #DOMAIN-SUFFIX,stat.10jqka.com.cn,DIRECT
 #DOMAIN-SUFFIX,adm.10jqka.com.cn,DIRECT
 
@@ -34,7 +33,6 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 
-
 #OKX
 DOMAIN-SUFFIX,okx.com,DIRECT
 
@@ -42,6 +40,10 @@ DOMAIN-SUFFIX,okx.com,DIRECT
 DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
 
+#Block100
+DOMAIN-SUFFIX,tk.anythinktech.com,PROXY
+DOMAIN-SUFFIX,api.anythinktech.com,PROXY
+DOMAIN-SUFFIX,ujoy.anythinktech.com,PROXY
 
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
