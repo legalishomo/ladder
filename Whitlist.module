@@ -45,5 +45,6 @@ DOMAIN-SUFFIX,tk.anythinktech.com,DIRECT
 DOMAIN-SUFFIX,api.anythinktech.com,DIRECT
 DOMAIN-SUFFIX,ujoy.anythinktech.com,DIRECT
 
+
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
