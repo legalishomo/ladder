@@ -45,6 +45,18 @@ DOMAIN-SUFFIX,tk.anythinktech.com,DIRECT
 DOMAIN-SUFFIX,api.anythinktech.com,DIRECT
 DOMAIN-SUFFIX,ujoy.anythinktech.com,DIRECT
 
+#Todesk
+DOMAIN,api.todesk.com,DIRECT
+DOMAIN,authds.todesk.com,DIRECT
+DOMAIN,login.todesk.com,DIRECT
+DOMAIN,relay.todesk.com,DIRECT
+DOMAIN,server.todesk.com,DIRECT
+DOMAIN,cdn.todesk.com,DIRECT
+DOMAIN,download.todesk.com,DIRECT
+DOMAIN,dl.todesk.com,DIRECT
+DOMAIN,st.todesk.com,DIRECT
+
+
 
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
