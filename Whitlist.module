@@ -2,29 +2,14 @@
 #!desc=PersonWhitlist Publisher:Person
 # Shadowrocket
 
+
 [Rule]
-#DOMAIN-SUFFIX,imgur.com,PROXY
-
-#Game
-DOMAIN-SUFFIX,centurygame.com,DIRECT
-DOMAIN-SUFFIX,centurygames.net,DIRECT
-DOMAIN-SUFFIX,hmma.baidu.com,DIRECT
-DOMAIN-SUFFIX,hm.baidu.com,DIRECT
-DOMAIN-SUFFIX,ilivedata.com,DIRECT
-DOMAIN-SUFFIX,mtyy.tv,DIRECT
-DOMAIN-SUFFIX,mtyy2.com,DIRECT
-
+#———————————直连模块———————————
 #Eastmoney
-DOMAIN-SUFFIX,bdwblog.eastmoney.com,DIRECT
-DOMAIN-SUFFIX,emdcadvertise.eastmoney.com,DIRECT
-DOMAIN-SUFFIX,mobappconfig.securities.eastmoney.com,DIRECT
+DOMAIN-SUFFIX,eastmoney.com,DIRECT
 
 #Ths
-DOMAIN-SUFFIX,eq.10jqka.com.cn,DIRECT
-DOMAIN-SUFFIX,ozone.10jqka.com.cn,DIRECT
-DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,DIRECT
-#DOMAIN-SUFFIX,stat.10jqka.com.cn,DIRECT
-#DOMAIN-SUFFIX,adm.10jqka.com.cn,DIRECT
+DOMAIN-SUFFIX,10jqka.com.cn,DIRECT
 
 #Apple
 DOMAIN-SUFFIX,apple.com,DIRECT
@@ -36,27 +21,27 @@ DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 #OKX
 DOMAIN-SUFFIX,okx.com,DIRECT
 
+#Block100
+DOMAIN-SUFFIX,anythinktech.com,DIRECT
+
+#Todesk
+DOMAIN,todesk.com,DIRECT
+
+#临时
+DOMAIN-SUFFIX,centurygame.com,DIRECT
+DOMAIN-SUFFIX,centurygames.net,DIRECT
+DOMAIN-SUFFIX,hmma.baidu.com,DIRECT
+DOMAIN-SUFFIX,hm.baidu.com,DIRECT
+DOMAIN-SUFFIX,ilivedata.com,DIRECT
+DOMAIN-SUFFIX,mtyy.tv,DIRECT
+DOMAIN-SUFFIX,mtyy2.com,DIRECT
+
+#———————————代理模块———————————
 #Github
 DOMAIN-SUFFIX,github.com,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
 
-#Block100
-DOMAIN-SUFFIX,tk.anythinktech.com,DIRECT
-DOMAIN-SUFFIX,api.anythinktech.com,DIRECT
-DOMAIN-SUFFIX,ujoy.anythinktech.com,DIRECT
 
-#Todesk
-DOMAIN,api.todesk.com,DIRECT
-DOMAIN,authds.todesk.com,DIRECT
-DOMAIN,login.todesk.com,DIRECT
-DOMAIN,relay.todesk.com,DIRECT
-DOMAIN,server.todesk.com,DIRECT
-DOMAIN,cdn.todesk.com,DIRECT
-DOMAIN,download.todesk.com,DIRECT
-DOMAIN,dl.todesk.com,DIRECT
-DOMAIN,st.todesk.com,DIRECT
-
-
-
+#临时
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
