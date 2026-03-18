@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 
 #OKX
 DOMAIN-SUFFIX,okx.com,DIRECT
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net,DIRECT
 
 #Block100
 DOMAIN-SUFFIX,anythinktech.com,DIRECT
@@ -35,6 +36,9 @@ DOMAIN-SUFFIX,hm.baidu.com,DIRECT
 DOMAIN-SUFFIX,ilivedata.com,DIRECT
 DOMAIN-SUFFIX,mtyy.tv,DIRECT
 DOMAIN-SUFFIX,mtyy2.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,bytepluscdn.com,DIRECT
+DOMAIN-SUFFIX,api.onesignal.com,DIRECT
 
 #———————————代理模块———————————
 #Github
