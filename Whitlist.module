@@ -28,6 +28,10 @@ DOMAIN-SUFFIX,anythinktech.com,DIRECT
 #Todesk
 DOMAIN,todesk.com,DIRECT
 
+#ByteDance
+DOMAIN-SUFFIX,bytepluscdn.com,DIRECT
+DOMAIN-SUFFIX,byteplusapi.com,DIRECT
+
 #临时
 DOMAIN-SUFFIX,centurygame.com,DIRECT
 DOMAIN-SUFFIX,centurygames.net,DIRECT
@@ -39,6 +43,7 @@ DOMAIN-SUFFIX,mtyy2.com,DIRECT
 DOMAIN-SUFFIX,aliyuncs.com,DIRECT
 DOMAIN-SUFFIX,bytepluscdn.com,DIRECT
 DOMAIN-SUFFIX,api.onesignal.com,DIRECT
+
 
 #———————————代理模块———————————
 #Github
