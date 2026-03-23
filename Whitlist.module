@@ -9,6 +9,7 @@
 DOMAIN-SUFFIX,eastmoney.com,DIRECT
 
 #Ths
+DOMAIN-SUFFIX,ad.thsi.cn,REJECT-DROP
 DOMAIN-SUFFIX,10jqka.com.cn,DIRECT
 
 #Apple
