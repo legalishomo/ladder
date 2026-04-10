@@ -33,6 +33,12 @@ DOMAIN,todesk.com,DIRECT
 DOMAIN-SUFFIX,bytepluscdn.com,DIRECT
 DOMAIN-SUFFIX,byteplusapi.com,DIRECT
 
+#proxy-edgetunnel
+DOMAIN-SUFFIX,cathat.click,DIRECT
+DOMAIN-SUFFIX,static.cloudflareinsights.com,DIRECT
+
+
+
 #临时
 DOMAIN-SUFFIX,centurygame.com,DIRECT
 DOMAIN-SUFFIX,centurygames.net,DIRECT
@@ -43,7 +49,7 @@ DOMAIN-SUFFIX,mtyy.tv,DIRECT
 DOMAIN-SUFFIX,mtyy2.com,DIRECT
 DOMAIN-SUFFIX,aliyuncs.com,DIRECT
 DOMAIN-SUFFIX,api.onesignal.com,DIRECT
-DOMAIN-SUFFIX,cathat.click,DIRECT
+
 
 
 #———————————代理模块———————————
