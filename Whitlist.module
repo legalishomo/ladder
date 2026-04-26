@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,byteplusapi.com,DIRECT
 
 #proxy-edgetunnel
 DOMAIN-SUFFIX,cathat.click,DIRECT
+DOMAIN-SUFFIX,doghat.click,DIRECT
 DOMAIN-SUFFIX,api.cmliussss.net,DIRECT
 DOMAIN-SUFFIX,static.cloudflareinsights.com,DIRECT
 
