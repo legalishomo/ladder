@@ -3,3 +3,4 @@
 #Shadowrocket
 
 [Rule]
+DOMAIN-SUFFIX,dcard.tw,PQJC
