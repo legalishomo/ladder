@@ -1,5 +1,5 @@
-#!name=Whitlist
-#!desc=PersonWhitlist Publisher:Person
+#!name=proxy_group
+#!desc=proxy group list
 #Shadowrocket
 
 [Rule]
