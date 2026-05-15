@@ -64,7 +64,7 @@ DOMAIN-SUFFIX,api.onesignal.com,DIRECT
 #临时
 DOMAIN-SUFFIX,mafiana.app,PROXY
 DOMAIN-SUFFIX,munqu.com,PROXY
-DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+#DOMAIN-SUFFIX,appsflyersdk.com,PROXY
 #DOMAIN-SUFFIX,skadsdkless.appsflyersdk.com,PROXY
 
 
