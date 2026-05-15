@@ -1,6 +1,7 @@
 #!name=proxy_group
 #!desc=proxy group list
 #Shadowrocket
+#base.conf proxy group: CFAUTO、CFUS、PQJC
 
 [Rule]
 DOMAIN-SUFFIX,dcard.tw,PQJC
