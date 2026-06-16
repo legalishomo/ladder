@@ -1,0 +1,37 @@
+#!name=ASN_China
+#!desc=ASN China list
+# Shadowrocket 2026-06-16
+
+[Rule]
+# ── ASN 直连（国内运营商 + 云厂商）──────────────
+# 中国电信
+IP-ASN,4134,DIRECT // 电信骨干网 ChinaNet
+IP-ASN,4809,DIRECT // 电信精品网 CN2
+# 中国联通
+IP-ASN,4837,DIRECT // 联通骨干网 China169
+IP-ASN,9800,DIRECT // 联通直联网
+# 中国移动
+IP-ASN,9808,DIRECT // 移动骨干网
+IP-ASN,58453,DIRECT // 移动国际 CMI
+IP-ASN,9394,DIRECT // 铁通（移动旗下）
+# 中国广电
+IP-ASN,137700,DIRECT
+# 教育网 CERNET
+IP-ASN,4538,DIRECT
+# 阿里云
+IP-ASN,37963,DIRECT
+IP-ASN,45102,DIRECT
+# 腾讯云
+IP-ASN,45090,DIRECT
+IP-ASN,132203,DIRECT // 腾讯（深圳数据中心）
+# 华为云
+IP-ASN,55990,DIRECT
+# 百度 / 百度云
+IP-ASN,38365,DIRECT
+IP-ASN,55967,DIRECT // 百度网信（北京）
+# 京东云（AS134527 为京东云主用 ASN）
+IP-ASN,134527,DIRECT
+# 天翼云（电信）
+IP-ASN,58519,DIRECT
+# 移动云
+IP-ASN,139080,DIRECT
