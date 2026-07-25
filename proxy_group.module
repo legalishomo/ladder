@@ -4,6 +4,6 @@
 #base.conf proxy group: CFAUTO、CFUS、PQJC
 
 [Rule]
-DOMAIN-SUFFIX,dcard.tw,PQJC
-DOMAIN-SUFFIX,happymh.com,pqjc-xjp
+DOMAIN-SUFFIX,dcard.tw,pqjc-US
+DOMAIN-SUFFIX,happymh.com,pqjc-SG
 
