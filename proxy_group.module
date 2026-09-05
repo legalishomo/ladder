@@ -5,5 +5,5 @@
 
 [Rule]
 DOMAIN-SUFFIX,dcard.tw,pqjc-US
-DOMAIN-SUFFIX,happymh.com,pqjc-SG
+#DOMAIN-SUFFIX,happymh.com,pqjc-SG
 
