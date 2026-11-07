@@ -8,8 +8,6 @@
 #Eastmoney
 DOMAIN-SUFFIX,eastmoney.com,DIRECT
 
-#apple
-DOMAIN-SUFFIX,gala.convection.cn,DIRECT
 
 #Ths
 DOMAIN-SUFFIX,ad.thsi.cn,REJECT-DROP
@@ -22,6 +20,7 @@ DOMAIN-SUFFIX,apple.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,gala.convection.cn,DIRECT
 
 #OKX
 DOMAIN-SUFFIX,okx.com,DIRECT
