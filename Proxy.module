@@ -1,0 +1,13 @@
+#!name=PROXY
+#!desc=PersonProxyList
+
+[Rule]
+
+#Claude ai
+DOMAIN-SUFFIX,claude.ai,PROXY
+
+#临时
+DOMAIN-SUFFIX,mafiana.app,PROXY
+DOMAIN-SUFFIX,munqu.com,PROXY
+#DOMAIN-SUFFIX,appsflyersdk.com,PROXY
+#DOMAIN-SUFFIX,skadsdkless.appsflyersdk.com,PROXY
