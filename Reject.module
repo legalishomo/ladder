@@ -1,0 +1,12 @@
+#!name=REJECT
+#!desc=PersonRejectList
+
+[Rule]
+
+#Ths
+DOMAIN-SUFFIX,ad.thsi.cn,REJECT-DROP
+
+#Sentry
+DOMAIN-SUFFIX,ingest.us.sentry.io,REJECT-DROP
+
+
