@@ -64,6 +64,8 @@ DOMAIN-SUFFIX,cdn.staticfile.org,DIRECT
 #DOMAIN-SUFFIX,github.com,PROXY
 #DOMAIN-SUFFIX,githubusercontent.com,PROXY
 
+#Claude ai
+DOMAIN-SUFFIX,claude.ai,PROXY
 
 
 #临时
