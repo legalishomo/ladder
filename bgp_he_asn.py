@@ -96,6 +96,9 @@ def render(items, fmt, policy, cc, resolve):
         "# bgp.he.net/country/%s ASN list for Shadowrocket" % cc.upper(),
         "# generated: %s" % time.strftime("%Y-%m-%d %H:%M:%S"),
         "# total: %d" % len(items),
+        "",
+        "[Rule]",
+        "",
     ]
     for a, _ in items:
         lines.append("IP-ASN,%d,%s%s" % (a, policy, suffix))
