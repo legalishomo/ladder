@@ -89,7 +89,10 @@ def render(items, fmt, policy, cc, resolve):
         return "asn,name\n" + "\n".join(
             '%d,"%s"' % (a, n.replace('"', "'")) for a, n in items) + "\n"
     suffix = "" if resolve else ",no-resolve"
+    label = "China" if cc.upper() == "CN" else cc.upper()
     lines = [
+        "#!name=ASN_%s" % label,
+        "#!desc=ASN %s list" % label,
         "# bgp.he.net/country/%s ASN list for Shadowrocket" % cc.upper(),
         "# generated: %s" % time.strftime("%Y-%m-%d %H:%M:%S"),
         "# total: %d" % len(items),
