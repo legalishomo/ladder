@@ -1,0 +1,57 @@
+name: Update CN ASN
+
+on:
+  schedule:
+    # 每周一 02:00 UTC（北京时间 10:00），即每 7 天一次
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 提交文件
+  actions: write    # 删除旧的运行记录
+
+concurrency:
+  group: update-asn
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch ASN list
+        run: |
+          python3 bgp_he_asn.py -c CN -p DIRECT -o ./asn/CN.list
+
+      - name: Commit if ASN changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add asn/CN.list
+          # 文件头有时间戳，只有 IP-ASN 规则行变化时才提交
+          if git diff --cached -U0 -- asn/CN.list | grep -qE '^[+-]IP-ASN'; then
+            git commit -m "chore: update CN ASN list $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "ASN 没有变化，跳过提交"
+          fi
+
+      - name: Keep latest 3 runs
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          WF_ID=$(gh api "repos/$REPO/actions/runs/$RUN_ID" --jq '.workflow_id')
+          # 按时间从新到旧，跳过最新 3 条（含当前这次），其余全部删除
+          gh api --paginate "repos/$REPO/actions/workflows/$WF_ID/runs?per_page=100" \
+            --jq '.workflow_runs[].id' \
+            | tail -n +4 \
+            | while read -r id; do
+                echo "delete run $id"
+                gh api -X DELETE "repos/$REPO/actions/runs/$id" || true
+              done
